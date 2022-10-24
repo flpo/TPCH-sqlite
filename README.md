@@ -7,8 +7,8 @@ It uses the official [tpch-dbgen](https://github.com/electrum/tpch-dbgen) tool t
 
 If you don’t want to generate the database yourself, you can download it from the **realeases** section of this github repo.
 
- * [TPC-H.db](https://github.com/lovasoa/TPCH-sqlite/releases/download/v1.0/TPC-H.db). This is a conforming TPC-H database with a scale factor of 1. The database file size is **1.17 GB**.
- * [TPC-H-small.db](https://github.com/lovasoa/TPCH-sqlite/releases/download/v1.0/TPC-H-small.db). This database does not conform to the standard, as it has a scale factor of 0.01, but it is much smaller: **11.6 MB**.
+ * [TPC-H.db](https://github.com/flpo/TPCH-sqlite/releases/download/v1.0/TPC-H.db). This is a conforming TPC-H database with a scale factor of 1. The database file size is **1.17 GB**.
+ * [TPC-H-small.db](https://github.com/flpo/TPCH-sqlite/releases/download/v1.0/TPC-H-small.db). This database does not conform to the standard, as it has a scale factor of 0.01, but it is much smaller: **11.6 MB**.
 
 
 ## How to use
@@ -16,7 +16,7 @@ If you don’t want to generate the database yourself, you can download it from 
 Clone this repository and its submodule. Then just run `make` from the root directory of this repo. Be sure to have `sqlite3` and a C compiler installed.
 
 ```
-git clone --recursive git@github.com:lovasoa/TPCH-sqlite.git
+git clone --recursive git@github.com:flpo/TPCH-sqlite.git
 cd TPCH-sqlite
 make
 ```
